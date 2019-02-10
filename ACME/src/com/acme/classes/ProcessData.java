@@ -119,7 +119,7 @@ public class ProcessData {
 							}
 
 						} else {
-							System.out.println("Total hours is negative");
+							System.out.println("There is a problem with: "+ stringSchedule);
 						}
 
 					}else{
@@ -127,11 +127,11 @@ public class ProcessData {
 					}
 
 				}
-				System.out.println("OUTPUT \n");
+				System.out.println("OUTPUT\n");
 				System.out.println("The amount to pay " + employeeName
-						+ " is: " + totalSalary + " USD"+" \n");
+						+ " is: " + totalSalary + " USD"+"\n");
 			} else {
-				System.out.println("Case "+(i+1)+": \n");
+				System.out.println("Case "+(i+1)+":\n");
 				System.out.println("Does not comply with the format: "+ stringData + "\n");
 			}
 
