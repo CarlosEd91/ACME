@@ -131,7 +131,8 @@ public class ProcessData {
 				System.out.println("The amount to pay " + employeeName
 						+ " is: " + totalSalary + " USD"+" \n");
 			} else {
-				System.out.println("Does not comply with the format");
+				System.out.println("Case "+(i+1)+": \n");
+				System.out.println("Does not comply with the format: "+ stringData + "\n");
 			}
 
 		}
