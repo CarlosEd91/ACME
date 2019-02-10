@@ -30,6 +30,11 @@ public class ProcessData {
 				String employeeName = data2[0];
 				String[] arraySchedule = schedule2;
 				String stringSchedule = "";
+				
+				System.out.println("Case "+(i+1)+": \n");
+				System.out.println("INPUT\n");
+				
+				System.out.println(data[i]+"\n");
 
 				for (int j = 0; j < arraySchedule.length; j++) {
 
@@ -118,12 +123,13 @@ public class ProcessData {
 						}
 
 					}else{
-						System.out.println(employeeName+"'s schedule "+ "does not comply with the format");
+						System.out.println(employeeName+"'s schedule "+ "does not comply with the format: "+stringSchedule);
 					}
 
 				}
+				System.out.println("OUTPUT \n");
 				System.out.println("The amount to pay " + employeeName
-						+ " is: " + totalSalary + " USD");
+						+ " is: " + totalSalary + " USD"+" \n");
 			} else {
 				System.out.println("Does not comply with the format");
 			}
